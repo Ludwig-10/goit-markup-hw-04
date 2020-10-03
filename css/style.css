@@ -76,24 +76,6 @@ margin-left: auto;
 .address .address-mail-link {
     margin-right: 50px;
 }
-.address-mail-link::before {
-  display: inline-block;
-    content: "";
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    background-image: url(../icon/envelope.svg);
-}
-.address-tel-link::before {
-    display: inline-block;
-    content: "";
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    background-image: url(../icon/smartphone.svg);
-
-
-}
 .navigation .navigation-list-link.current {
     color: var(--accent-color);
 }
